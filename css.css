@@ -3,10 +3,6 @@
     padding: 50px;
 }
 
-.footer {
-    background-color: aquamarine;
-}
-
 .title {
 text-transform: uppercase;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -19,3 +15,7 @@ ul {
     margin-top: 1em;
     margin-left: -25px; 
   }
+
+  .card {display:inline-block;}
+
+
