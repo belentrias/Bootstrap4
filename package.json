@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://BelenTrias@bitbucket.org/BelenTrias/bootstrap4.git"
+  },
+  "author": "Belén Trías",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/BelenTrias/bootstrap4#readme"
+}
