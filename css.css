@@ -10,9 +10,21 @@
     margin-left: -25px; 
   }
 
-  .card {display:inline-block;}
+.card {display:inline-block;}
 
 .nav-item {
     margin-right: 20px;
 }
+ footer {
+     background-color: #A9D1D6;
+     margin-top: 20px;
+ }
 
+ footer a {
+     color: #557571;
+ }
+
+footer .col-md-4 {
+    padding: 60px;
+}
+ 

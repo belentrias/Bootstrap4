@@ -4,28 +4,28 @@
    <!-- Bootstrap CSS -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-   <link rel="stylesheet" href="css.css">
+   <link rel="stylesheet" href="/css.css">
    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GUÍA HOTELES</title>
-    
+    <title>GUÍA HOTELES</title> 
 </head>
 <body>
+  <!--navbar-->
   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <!--Es importante poner el fixed-top si queremos que la barra baje cuando nosotros bajemos
     La navbar ocupa lugar en el jumbotron y esto se arregla poniendole  margen top al jumbotron-->
-    <a class="navbar-brand" href="#"><i class="fab fa-fort-awesome"></i></a>
+    <a class="navbar-brand" href="index.html"><i class="fab fa-fort-awesome"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <!--Las clases collapse y navbar-collapse se usan para cuando queda responsive-->
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#" style="padding-left: 25px;">Inicio</a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre nosotros</a>
+          <a class="nav-link" href="index.html" style="padding-left: 25px;">Inicio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="about.html">Sobre nosotros</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Cómo reservar</a>
@@ -103,155 +103,61 @@
   </div>
   </div>
 </div>
-
+<!--breadcrum-->
+<div class="container">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">
+        Sobre Nosotros
+      </li>
+    </ol>
+  </nav>
+</div>
+<div class="container">
+  <span>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </span>
+</div>
       
-    
-<div class="container" style="padding-top: 50px;">
-<!--HOTEL 1-->
-<div class="row">
-  <div class= col-sm-4>
-  <div class="card" style="width: 18rem;">
-      <img class="card-img-top rounded-circle" style="padding: 12px" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/20/4c/62/disney-s-grand-floridian.jpg?w=900&h=-1&s=1" height="270px">
-      <div class="card-body">
-        <h5 class="card-title">Disney’s Grand Floridian Resort & Spa</h5>
-        <p class="card-text">          <ul>
-          <li>Bibbidi Bobbidi Boutique - Disney's Grand Floridian Resort & Spa</li>
-          <li>Piscina con tobogán acuatico</li>
-          <li>Comida exquisita</li>
-          <li>Spa, gimnasio y salon de belleza de primer nivel</li>
-          </ul></p>
-          <button type="button" class="btn btn-primary">Ver más »</button>
-      </div>
-    </div>  
-    </div>
-<!--HOTEL 2-->
-<div class= col-sm-4>
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top rounded-circle" style="padding: 12px" src="https://media-cdn.tripadvisor.com/media/photo-s/14/2f/8b/19/disney-s-wilderness-lodge.jpg" height="270px">
-  <div class="card-body">
-    <h5 class="card-title">Disney’s Wilderness Lodge</h5>
-    <p class="card-text">          
-       
-      <ul>
-        <li>Piscinas en Disney's Wildnerness Lodge</li>
-        <li>Storybook Dining en Artist Point con Snow White</li>
-        </ul></p>
-      <button type="button" class="btn btn-primary">Ver más »</button>
-  </div>
-</div>  
-</div>
-    <!--HOTEL 3-->
-    <div class= col-sm-4>
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top rounded-circle" style="padding: 12px" src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/410/205/75/dam/disney-world/attractions/animal-kingdom/disney-animals-ankole-watusi/dak-exterior-view-16x9.jpg?1575476482677" height="270px">
-      <div class="card-body">
-        <h5 class="card-title">Disney’s Animal Kingdom Lodge</h5>
-        <p class="card-text">           
-          <ul>
-            <li>Piscina con tobogán acuatico</li>
-            <li>Restaurantes galardonados</li>
-            <li>Animales exoticos</li>
-            </ul>
-        </p>
-          <button type="button" class="btn btn-primary">Ver más »</button>
-      </div>
-    </div>  
-    </div>
-    <!--HOTEL 4-->
-    <div class= col-sm-4>
-    <div class="card" style="width: 18rem;">
-      <img class="card-img-top rounded-circle" style="padding: 12px" src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/10/59/1059330_v4.jpeg" height="270px">
-      <div class="card-body">
-        <h5 class="card-title">Walt Disney World Dolphin Hotel</h5>
-        <p class="card-text">           
-          <ul>
-            <li>Piscina con tobogán acuatico</li>
-            <li>Shula's Steak House</li>
-            <li>Mandara Spa</li>
-            <li>Centro de actividades supervisadas para niños</li>
-            </ul>
-        </p>
-          <button type="button" class="btn btn-primary">Ver más »</button>
-      </div>
-    </div>  
-  </div>
-  <!--HOTEL 5-->
-  <div class= col-sm-4>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top rounded-circle" style="padding: 12px" src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/900/360/75/dam/disney-world/resorts/copper-creek-villas-and-cabins/copper-creek-exterior-lake-900x360.jpg?1603280465059" height="270px">
-    <div class="card-body">
-      <h5 class="card-title">Copper Creek Villas & Cabins at Disney’s Wilderness Lodge</h5>
-      <p class="card-text">           
-        <ul>
-          <li>Una residencia con espacio adicional</li>
-          <li>Un entorno enriquecedor cerca de la magia</li>
-          <li>Acceso a 2 piscinas pintorescas</li>
-          <li>Un hotel de Disney Vacation Club</li>
-          </ul>
-      </p>
-        <button type="button" class="btn btn-primary">Ver más »</button>
-    </div>
-  </div>  
-  </div>
-  <!--HOTEL 6-->
-  <div class= col-sm-4>
-  <div class="card" style="width: 18rem;">
-    <img class="card-img-top rounded-circle" style="padding: 12px" src="https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/14/81/14813_v2.jpeg" height="270px">
-    <div class="card-body">
-      <h5 class="card-title">The Campsites at Disney's Fort Wilderness Resort</h5>
-      <p class="card-text">           
   
-          <li>Campamentos totalmente equipados</li>
-          <li>Piscina con tobogán acuático</li>
-          <li>Alquiler de carritos de golf</li>
-          <li>Recreación única</li>
-          <li>Política de admisión de mascotas</li>
-          <li>Decora tu campamento</li>
-          </ul>
-      </p>
-        <button type="button" class="btn btn-primary">Ver más »</button>
-    </div>
-  </div>  
-  </div>
-  </div>
-</div>
 
 <!--Acá empieza el footer-->
 <footer>
-    <div class="container justify-content-center">
-    <div class="row">
-      <div class="col-md-4 d-flex flex-column">
-         <p>Seguinos en nuestras redes sociales</p>
-         <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i> Facebook</a>
-        <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i> Twitter</a>
-        <a href="http://www.instagram.com"><i class="fab fa-instagram-square"></i> Instagram</a>
-      </div>
-      <div class="col-md-4 d-flex flex-column">
-          <address>
-        <p><i class="fas fa-home"></i> Montevideo, Uruguay</p>
-          <p><i class="fas fa-phone-square-alt"></i> +123456789</p>
-          <p><i class="fas fa-envelope"></i> contacto.guia-hoteles@gmail.com</p>
-        </address>
-      </div>
-      <div class="col-md-4 d-flex flex-column align-items-end">
-        <a href="http://www.facebook.com">Nuestra Historia</a>
-        <a href="http://www.twitter.com">Tarifas</a>
-        <a href="http://www.instagram.com">Terminos y Condiciones</a>
-      </div>
+  <div class="row">
+    <div class="col-md-4 d-flex flex-column">
+       <p>Seguinos en nuestras redes sociales</p>
+       <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i> Facebook</a>
+      <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i> Twitter</a>
+      <a href="http://www.instagram.com"><i class="fab fa-instagram-square"></i> Instagram</a>
     </div>
+    <div class="col-md-4 d-flex flex-column">
+        <address>
+      <p><i class="fas fa-home"></i> Montevideo, Uruguay</p>
+        <p><i class="fas fa-phone-square-alt"></i> +123456789</p>
+        <p><i class="fas fa-envelope"></i> contacto.guia-hoteles@gmail.com</p>
+      </address>
     </div>
-  </footer>
-  <!--Acá termina el footer-->
+    <div class="col-md-4 d-flex flex-column align-items-end">
+      <a href="http://www.facebook.com">Nuestra Historia</a>
+      <a href="http://www.twitter.com">Tarifas</a>
+      <a href="http://www.instagram.com">Terminos y Condiciones</a>
+    </div>
+  </div>
+</footer>
+<!--Acá termina el footer-->
 
 
-       <!-- Bootstrap Popper-->
-   <script src="node_modules/popper.js/dist/popper.js"></script>
-   <script src="node_modules/jquery/dist/jquery.js"></script>
-   <script src="node_modules/popper.js/dist/popper.min.js"></script>
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-   <!-- Fontawesome-->
-   <script src="https://kit.fontawesome.com/ca3b02d36e.js" crossorigin="anonymous"></script>
+     <!-- Bootstrap Popper-->
+ <script src="node_modules/popper.js/dist/popper.js"></script>
+ <script src="node_modules/jquery/dist/jquery.js"></script>
+ <script src="node_modules/popper.js/dist/popper.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+ <!-- Fontawesome-->
+ <script src="https://kit.fontawesome.com/ca3b02d36e.js" crossorigin="anonymous"></script>
 </body>
 </html>

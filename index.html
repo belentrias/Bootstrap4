@@ -8,13 +8,13 @@
    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GUÍA HOTELES</title>
-    
+    <!--lo importante del container es que respeta los margenes laterales-->
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <!--Es importante poner el fixed-top si queremos que la barra baje cuando nosotros bajemos
     La navbar ocupa lugar en el jumbotron y esto se arregla poniendole  margen top al jumbotron-->
-    <a class="navbar-brand" href="#"><i class="fab fa-fort-awesome"></i></a>
+    <a class="navbar-brand" href="index.html"><i class="fab fa-fort-awesome"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,10 +22,10 @@
       <!--Las clases collapse y navbar-collapse se usan para cuando queda responsive-->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#" style="padding-left: 25px;">Inicio</a>
+          <a class="nav-link" href="index.html" style="padding-left: 25px;">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre nosotros</a>
+          <a class="nav-link" href="about.html">Sobre nosotros</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Cómo reservar</a>
@@ -102,10 +102,17 @@
     </div>
   </div>
   </div>
+</div>  
+<div class="container">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">
+        Home
+      </li>
+    </ol>
+  </nav>
 </div>
-
-      
-    
+<!--Acá empiezan los hoteles-->
 <div class="container" style="padding-top: 50px;">
 <!--HOTEL 1-->
 <div class="row">
@@ -218,7 +225,6 @@
 
 <!--Acá empieza el footer-->
 <footer>
-    <div class="container justify-content-center">
     <div class="row">
       <div class="col-md-4 d-flex flex-column">
          <p>Seguinos en nuestras redes sociales</p>
@@ -238,7 +244,6 @@
         <a href="http://www.twitter.com">Tarifas</a>
         <a href="http://www.instagram.com">Terminos y Condiciones</a>
       </div>
-    </div>
     </div>
   </footer>
   <!--Acá termina el footer-->
