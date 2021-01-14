@@ -1,15 +1,9 @@
 
-.flex-column {
-    padding: 50px;
+.jumbotron {
+    margin-top: 50px;
 }
 
-.title {
-text-transform: uppercase;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-weight: bold;
-}
-
-ul {
+.card ul {
     display: block;
     list-style-type: disc;
     margin-top: 1em;
@@ -18,4 +12,7 @@ ul {
 
   .card {display:inline-block;}
 
+.nav-item {
+    margin-right: 20px;
+}
 
