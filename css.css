@@ -1,5 +1,16 @@
 .jumbotron {
     margin-top: 50px;
+    text-align: center;
+}
+
+h5 {
+ text-align: center;
+}
+
+.card-header {
+    text-align: center;
+    font-weight: bold;
+    color: red;
 }
 
 .card-hotel {
@@ -19,6 +30,12 @@
 .btn-primary {
     border-radius: 0px;
 }
+
+.carousel-inner{ 
+    width:100%; 
+    max-height: 300px !important; 
+    min-height: 300px !important;
+} 
 
 .tab-content {
     padding-top: 10px;
