@@ -1,20 +1,25 @@
-
 .jumbotron {
     margin-top: 50px;
 }
 
-.card ul {
-    display: block;
-    list-style-type: disc;
-    margin-top: 1em;
-    margin-left: -25px; 
-  }
-
-.card {display:inline-block;}
+.card-hotel {
+    flex: 1 300px;
+    margin-top: 10px;
+    margin-bottom: 0px; 
+}
 
 .nav-item {
     margin-right: 20px;
 }
+
+.img-card {
+    width: 10%;
+    height: 50%; }
+
+.btn-primary {
+    border-radius: 0px;
+}
+    
  footer {
      background-color: #A9D1D6;
      margin-top: 20px;
