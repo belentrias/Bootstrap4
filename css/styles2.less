@@ -1,0 +1,52 @@
+/*las variables en sass se definen con el signo de $*/
+@yellow: #c2bf25;
+.margenes(@top: 0px, @bottom: 0px) {
+    margin-top: @top;
+    margin-bottom: @bottom;
+}
+
+.jumbotron {
+    text-align: center;
+    .margenes(50px, 20px);
+    background-color: @yellow; }
+  
+  h5 {
+    text-align: center; }
+  
+  .card-header {
+    text-align: center;
+    font-weight: bold;
+    color: #3264a8; }
+  
+  .card-hotel {
+    flex: 1 300px;
+    .margenes(10px, 0px); }
+  
+  .nav-item {
+    margin-right: 20px; }
+  
+  .img-card {
+    width: 10%;
+    height: 50%; }
+  
+  .btn-primary {
+    border-radius: 0px; }
+  
+  .carousel-inner {
+    width: 100%;
+    max-height: 300px !important;
+    min-height: 300px !important; }
+  
+  .tab-content {
+    padding-top: 10px; }
+  
+  footer {
+    background-color:@yellow;
+    .margenes(20px, 0px); }
+  
+  footer a {
+    color: #557571; }
+  
+  footer .col-md-4 {
+    padding: 60px; }
+  
