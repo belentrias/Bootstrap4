@@ -11,7 +11,7 @@
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "clean": "rimraf dist",
     "imagemin": "imagemin imagenes/* --out-dir dist/imagenes",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin precios.html -d dist --htmlmin -o dist/precios.html",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin contacto.html -d dist --htmlmin -o dist/contacto.html && usemin hotel_last.html -d dist --htmlmin -o dist/hotel_last.html && usemin hotel_most.html -d dist --htmlmin -o dist/hotel_most.html && usemin hotel.html -d dist --htmlmin -o dist/hotel.html && usemin payment.html -d dist --htmlmin -o dist/payment.html && usemin reserva.html -d dist --htmlmin -o dist/reserva.html",
     "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin"
   },
   "repository": {
@@ -24,11 +24,15 @@
   "devDependencies": {
     "concurrently": "^5.3.0",
     "copyfiles": "^2.4.1",
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
     "imagemin": "^7.0.1",
     "lite-server": "^2.6.1",
     "node-sass": "^5.0.0",
     "onchange": "^7.1.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
