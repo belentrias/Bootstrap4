@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "concurrently \" npm run watch:scss \" \" npm run dev \"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
-    "scss": "node-sass -o css/ css/"
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss"
   },
   "repository": {
     "type": "git",
@@ -16,8 +18,11 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/BelenTrias/bootstrap4#readme",
   "devDependencies": {
+    "concurrently": "^5.3.0",
     "lite-server": "^2.6.1",
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "onchange": "^7.1.0",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",

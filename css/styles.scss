@@ -1,5 +1,9 @@
 /*las variables en sass se definen con el signo de $*/
-$azul: #3264a8;
+$rojo: #f81010;
+$azul: #002366;
+$blanco: #fff;
+$celeste: #8EE5EE;
+
 @mixin margenes($top, $bottom) {
     margin-top: $top;
     margin-bottom: $bottom;
@@ -8,6 +12,15 @@ $azul: #3264a8;
     text-align: center;
     @include margenes(60px, 20px);
     background-color: $azul;
+    color: $celeste;
+}
+ 
+.btn-primary {
+    background-color: $azul !important;
+}
+
+.btn-primary :hover {
+    background-color: $celeste !important;
 }
 
 h5 {
@@ -17,7 +30,7 @@ h5 {
 .card-header {
     text-align: center;
     font-weight: bold;
-    color: $azul;
+    color: $rojo;
 }
 
 .card-hotel {
@@ -53,10 +66,13 @@ h5 {
  }
 
  footer a {
-     color: #557571;
+     color: $celeste;
  }
 
 footer .col-md-4 {
     padding: 60px;
 }
  
+footer p {
+    color: $blanco;
+}

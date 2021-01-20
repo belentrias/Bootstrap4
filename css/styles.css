@@ -3,7 +3,14 @@
   text-align: center;
   margin-top: 60px;
   margin-bottom: 20px;
-  background-color: #3264a8; }
+  background-color: #002366;
+  color: #8EE5EE; }
+
+.btn-primary {
+  background-color: #002366 !important; }
+
+.btn-primary :hover {
+  background-color: #8EE5EE !important; }
 
 h5 {
   text-align: center; }
@@ -11,7 +18,7 @@ h5 {
 .card-header {
   text-align: center;
   font-weight: bold;
-  color: #3264a8; }
+  color: #f81010; }
 
 .card-hotel {
   flex: 1 300px;
@@ -37,12 +44,15 @@ h5 {
   padding-top: 10px; }
 
 footer {
-  background-color: #3264a8;
+  background-color: #002366;
   margin-top: 20px;
   margin-bottom: 0px; }
 
 footer a {
-  color: #557571; }
+  color: #8EE5EE; }
 
 footer .col-md-4 {
   padding: 60px; }
+
+footer p {
+  color: #fff; }
