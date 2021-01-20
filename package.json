@@ -10,7 +10,7 @@
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "clean": "rimraf dist",
-    "imagemin": "imagemin imagenes/* --out-dir dist/imagenes",
+    "imagemin": "imagemin images/* --out-dir dist/images",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin contacto.html -d dist --htmlmin -o dist/contacto.html && usemin hotel_last.html -d dist --htmlmin -o dist/hotel_last.html && usemin hotel_most.html -d dist --htmlmin -o dist/hotel_most.html && usemin hotel.html -d dist --htmlmin -o dist/hotel.html && usemin payment.html -d dist --htmlmin -o dist/payment.html && usemin reserva.html -d dist --htmlmin -o dist/reserva.html",
     "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin"
   },
