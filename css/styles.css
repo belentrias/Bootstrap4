@@ -4,7 +4,7 @@
   margin-top: 60px;
   margin-bottom: 20px;
   background-color: #002366;
-  color: #8EF5;
+  color: #8EE5EE;
 }
 
 .btn-primary {
@@ -12,7 +12,7 @@
 }
 
 .btn-primary :hover {
-  background-color: #8EF5 !important;
+  background-color: #8EE5EE !important;
 }
 
 h5 {
@@ -61,7 +61,7 @@ footer {
 }
 
 footer a {
-  color: #8EF5;
+  color: #8EE5EE;
 }
 
 footer .col-md-4 {
