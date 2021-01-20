@@ -8,7 +8,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "lite-server",
     "scss": "node-sass -o css/ css/",
-    "watch:scss": "onchange \"css/*.scss\" -- npm run scss"
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin imagenes/* --out-dir dist/imagenes",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin precios.html -d dist --htmlmin -o dist/precios.html",
+    "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin"
   },
   "repository": {
     "type": "git",
@@ -19,6 +23,8 @@
   "homepage": "https://bitbucket.org/BelenTrias/bootstrap4#readme",
   "devDependencies": {
     "concurrently": "^5.3.0",
+    "copyfiles": "^2.4.1",
+    "imagemin": "^7.0.1",
     "lite-server": "^2.6.1",
     "node-sass": "^5.0.0",
     "onchange": "^7.1.0",
