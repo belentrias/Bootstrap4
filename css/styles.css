@@ -4,55 +4,72 @@
   margin-top: 60px;
   margin-bottom: 20px;
   background-color: #002366;
-  color: #8EE5EE; }
+  color: #8EF5;
+}
 
 .btn-primary {
-  background-color: #002366 !important; }
+  background-color: #002366 !important;
+}
 
 .btn-primary :hover {
-  background-color: #8EE5EE !important; }
+  background-color: #8EF5 !important;
+}
 
 h5 {
-  text-align: center; }
+  text-align: center;
+}
 
 .card-header {
   text-align: center;
   font-weight: bold;
-  color: #f81010; }
+  color: #f81010;
+}
 
 .card-hotel {
   flex: 1 300px;
   margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 .nav-item {
-  margin-right: 20px; }
+  margin-right: 20px;
+}
 
 .img-card {
   width: 10%;
-  height: 50%; }
+  height: 50%;
+}
 
 .btn-primary {
-  border-radius: 0px; }
+  border-radius: 0px;
+}
 
 .carousel-inner {
   width: 100%;
   max-height: 300px !important;
-  min-height: 300px !important; }
+  min-height: 300px !important;
+}
 
 .tab-content {
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
 footer {
   background-color: #002366;
   margin-top: 20px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+}
 
 footer a {
-  color: #8EE5EE; }
+  color: #8EF5;
+}
 
 footer .col-md-4 {
-  padding: 60px; }
+  padding: 60px;
+}
 
 footer p {
-  color: #fff; }
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */
