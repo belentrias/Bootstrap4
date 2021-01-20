@@ -1,18 +1,10 @@
-/*las variables en sass se definen con el signo de $*/
+
 .jumbotron {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 20px;
   background-color: #002366;
   color: #8EE5EE;
-}
-
-.btn-primary {
-  background-color: #002366 !important;
-}
-
-.btn-primary :hover {
-  background-color: #8EE5EE !important;
 }
 
 h5 {

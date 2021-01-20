@@ -10,15 +10,11 @@ $celeste: #8EE5EE;
 }
 .jumbotron {
     text-align: center;
-    @include margenes(60px, 20px);
+    @include margenes(50px, 20px);
     background-color: $azul;
     color: $celeste;
 }
  
-.btn-primary {
-    background-color: $azul !important;
-}
-
 .btn-primary :hover {
     background-color: $celeste !important;
 }
